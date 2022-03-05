@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido Becky's Cake Shop</title>
+</head>
+
+<body>
+    <table align="CENTER">
+        <tr>
+            <th><img src="https://i.imgur.com/hv8MaI5.png" alt="logo becky" width="200"></th>
+            <th><h1>"BECKY'S CAKE SHOP"</h1></th>
+            <th><img src="https://i.imgur.com/hv8MaI5.png" alt="logo becky" width="200"></th>
+
+        </tr>
+</table>
+<hr>
+<h2 align="Center">Es un placer atenderte, por favor rellena los siguientes datos:</h2>
+
+<div align="center"> 
+<form action="">
+    
+    <label for="Nombre">Nombre</label><br>
+    <input type="text" id="Nombre" name="Nombre" placeholder="Escribe tu nombre(s)"><br><br>
+
+    <label for="Apellido">Apellido</label><br>
+    <input type="text" id="Apellido" name="Apellido" placeholder="Escribe tu apellido"><br><br>
+
+    <label for="tel">Teléfono</label><br>
+    <input type="tel" maxlenght="10" id="tel" name="tel" placeholder="Anota tu teléfono a 10 digitos"><br><br>   
+
+    <label for="correo">Correo electrónico</label><br>
+    <input type="email" id="correo" name="correo" placeholder="Escribe tu E-mail"><br><br>
+    </form>
+<hr>
+<h2>Datos de tu pastel: </h2>
+<p>Selecciona el sabor o mezcla de sabores de tu preferencia:</p><br>
+
+<form action="">
+ 
+    <label for="3lec">3 leches</label>
+    <input type="checkbox" id="3lec" name="3lec" value="3 leches"><br>
+
+    <label for="choco">Chocolate</label>
+    <input type="checkbox" id="choco" name="choco" value="Chocolate"><br>
+
+    <label for="vai">Vainilla</label>
+    <input type="checkbox" id="vai" name="vai" value="Vainilla"><br>
+
+    <label for="caj">Cajeta</label>
+    <input type="checkbox" id="caj" name="caj" value="Cajeta"><br>
+
+    <label for="piñ">Piña con coco</label>
+    <input type="checkbox" id="piñ" name="piñ" value="Piña"><br>
+
+</form>
+<br>
+
+
+<p>Selecciona el topping o mezcla de toppings de tu preferencia:</p><br>
+
+<form action="">
+ 
+    <label for="chisp">Chispas de chocolate</label>
+    <input type="checkbox" id="chisp" name="chisp" value="chispas"><br>
+
+    <label for="color">Chispas de colores</label>
+    <input type="checkbox" id="color" name="color" value="colores"><br>
+
+    <label for="coco">Coco Rallado</label>
+    <input type="checkbox" id="coco" name="coco" value="coco"><br>
+
+    <label for="fon">Fondant</label>
+    <input type="checkbox" id="fon" name="fon" value="fondant"><br>
+
+    <label for="bet">Betún extra</label>
+    <input type="checkbox" id="bet" name="bet" value="bet"><br>
+
+</form>
+<br>
+
+<p>Escribe una breve descripción de cómo requieres que se prepare tu pastel:</p>
+<form action="">
+    <input type="text" id="desc" name="desc"  width="1800" height="1300" placeholder="Descripción">
+</form>
+<br>
+<input type="button" id="Enviar"    name="Enviar" value="Enviar pedido"  onclick="alert('Su pedido fue enviado con éxito')">
+</div>
+</body>
